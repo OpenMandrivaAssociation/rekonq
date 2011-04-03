@@ -1,6 +1,6 @@
 Name:		rekonq
 License:	GPLv3+
-Version:	0.6.95
+Version:	0.7.0
 Release:	%mkrel 1
 Group:		Graphical desktop/KDE
 Summary:	A lightweight, WebKit based web browser for KDE

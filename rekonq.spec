@@ -1,6 +1,6 @@
 Name:		rekonq
 License:	GPLv3+
-Version:	0.7.0
+Version:	0.8.1
 Release:	%mkrel 1
 Group:		Graphical desktop/KDE
 Summary:	A lightweight, WebKit based web browser for KDE
@@ -10,11 +10,10 @@ Source:		http://downloads.sourceforge.net/rekonq/%{name}-%{version}.tar.bz2
 Patch0:		rekonq-0.6.80-add-mandriva-www-in-bookmark.patch
 # Patch 1 provides some mandriva sites in default rekonq preview
 # Patch 1 also fix the default website to point to /usr/share/doc/HTML/index.html
-Patch1:		rekonq-0.6.80-add-mandriva-www-in-preview.patch
+Patch1:		rekonq-0.8.1-add-mandriva-www-in-preview.patch
 BuildRequires:	kdelibs4-devel >= 2:4.6.0
 # Package konqueror is currently required because it's providing cookies,proxie & web shortcut support in rekonq
 Requires:	konqueror
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 rekonq is a KDE browser based on Webkit. Its code is based on Nokia
@@ -35,8 +34,8 @@ KDE technologies to have a full-featured KDE web browser.
 
 %prep
 %setup -q
-%patch0 -p0
-%patch1 -p0
+%patch0 -p0 -b .bookmark~
+%patch1 -p1 -b .preview~
 
 %build
 %cmake_kde4
@@ -50,7 +49,3 @@ KDE technologies to have a full-featured KDE web browser.
 
 %clean
 %__rm -rf %{buildroot}
-
-
-
-

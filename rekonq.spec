@@ -1,11 +1,11 @@
 Name:		rekonq
 License:	GPLv3+
-Version:	0.9.1
+Version:	0.9.2
 Release:	1
 Group:		Graphical desktop/KDE
 Summary:	A lightweight, WebKit based web browser for KDE
 URL:		http://rekonq.sourceforge.net/
-Source:		http://switch.dl.sourceforge.net/project/rekonq/%(echo %version |cut -d. -f1-2)/rekonq-%version.tar.bz2
+Source0:	http://downloads.sourceforge.net/project/rekonq/%(echo %{version} | cut -d. -f1-2)/%{name}-%{version}.tar.bz2
 Source100:	rekonq.rpmlintrc
 # Patch 0 provides default mandriva bookmark 
 Patch0:		rekonq-0.6.80-add-mandriva-www-in-bookmark.patch
@@ -21,7 +21,7 @@ rekonq is a KDE browser based on Webkit. Its code is based on Nokia
 QtDemoBrowser, just like Arora. Anyway its implementation is going to embrace
 KDE technologies to have a full-featured KDE web browser.
 
-#----------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
 
 %prep
 %setup -q
@@ -39,10 +39,7 @@ KDE technologies to have a full-featured KDE web browser.
 %find_lang %{name} --with-html
 %find_lang kwebapp
 
-%clean
-%__rm -rf %{buildroot}
-
-%files -f %name.lang,kwebapp.lang
+%files -f %{name}.lang,kwebapp.lang
 %defattr(-,root,root)
 %{_kde_bindir}/%{name}
 %{_kde_bindir}/kwebapp
@@ -51,4 +48,3 @@ KDE technologies to have a full-featured KDE web browser.
 %{_kde_datadir}/config.kcfg/%{name}.kcfg
 %{_kde_iconsdir}/hicolor/*/apps/%{name}.png
 %{_kde_applicationsdir}/%{name}.desktop
-

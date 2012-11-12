@@ -1,0 +1,24 @@
+--- rekonq-0.9.0-1/src/rekonq.kcfg.preview~	2012-03-01 23:14:27.000000000 +0100
++++ rekonq-0.9.0-1/src/rekonq.kcfg	2012-03-05 15:36:23.255682340 +0100
+@@ -42,10 +42,10 @@
+ <!-- New Tab Page Settings -->
+ <group name="NewTabPage">
+     <entry name="previewNames" type="StringList">
+-        <default>KDE Homepage,rekonq site</default>
++        <default>Mandriva Linux,Mandriva Blog,rekonq site</default>
+     </entry>
+     <entry name="previewUrls" type="StringList">
+-        <default>http://www.kde.org/,http://rekonq.kde.org/</default>
++	    <default>http://start.stage.mandriva.com/,http://blog.mandriva.com/,http://rekonq.kde.org/</default>
+     </entry>
+ </group>
+ 
+@@ -59,7 +59,7 @@
+         <default>false</default>
+     </entry>
+     <entry name="homePage" type="String">
+-        <default>http://www.kde.org/</default>
++        <default>file:/usr/share/doc/HTML/index.html</default>
+     </entry>
+     <entry name="downloadPath" type="Url">
+         <default code="true">KGlobalSettings::downloadPath()</default>

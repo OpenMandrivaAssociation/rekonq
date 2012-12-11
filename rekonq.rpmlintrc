@@ -1,0 +1,4 @@
+# Rekonq isn't a library package. rpmlint just mistakes
+# it for one because of libkdeinit4_rekonq.so
+addFilter("E: non-versioned-file-in-library-package")
+addFilter("E: executable-in-library-package")

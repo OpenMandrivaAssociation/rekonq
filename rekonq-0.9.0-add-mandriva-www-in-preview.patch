@@ -5,11 +5,11 @@
  <group name="NewTabPage">
      <entry name="previewNames" type="StringList">
 -        <default>KDE Homepage,rekonq site</default>
-+        <default>Mandriva Linux,Mandriva Blog,rekonq site</default>
++        <default>OpenMandriva,OM Forum,rekonq site</default>
      </entry>
      <entry name="previewUrls" type="StringList">
 -        <default>http://www.kde.org/,http://rekonq.kde.org/</default>
-+	    <default>http://start.stage.mandriva.com/,http://blog.mandriva.com/,http://rekonq.kde.org/</default>
++	    <default>http://openmandriva.org/,http://openmandriva.org/en/forum,http://rekonq.kde.org/</default>
      </entry>
  </group>
  

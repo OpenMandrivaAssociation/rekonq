@@ -1,12 +1,12 @@
 Name:		rekonq
 License:	GPLv3+
-Version:	2.0
+Version:	2.1
 Release:	1
 Group:		Graphical desktop/KDE
 Summary:	A lightweight, WebKit based web browser for KDE
 URL:		http://rekonq.sourceforge.net/
 #Source0:	http://downloads.sourceforge.net/project/rekonq/%(echo %{version} | cut -d. -f1-2)/%{name}-%{version}.tar.bz2
-Source0:	http://downloads.sourceforge.net/project/rekonq/2.0/%{name}-%{version}.tar.bz2
+Source0:	http://freefr.dl.sourceforge.net/project/rekonq/2.0/rekonq-%version.tar.bz2
 Source100:	rekonq.rpmlintrc
 # Patch 0 provides default mandriva bookmark 
 Patch0:		rekonq-0.6.80-add-mandriva-www-in-bookmark.patch
@@ -26,8 +26,7 @@ KDE technologies to have a full-featured KDE web browser.
 
 %prep
 %setup -q
-%patch0 -p0 -b .bookmark~
-%patch1 -p1 -b .preview~
+%apply_patches
 
 %build
 %cmake_kde4

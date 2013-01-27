@@ -1,39 +1,32 @@
---- src/data/defaultbookmarks.xbel.orig	2011-02-08 18:12:18.000000000 +0100
-+++ src/data/defaultbookmarks.xbel	2011-02-09 21:03:39.000000000 +0100
-@@ -1,8 +1,20 @@
+--- rekonq-2.1/src/data/defaultbookmarks.xbel.bookmark~	2013-01-27 20:50:51.751973739 +0100
++++ rekonq-2.1/src/data/defaultbookmarks.xbel	2013-01-27 21:11:24.069799431 +0100
+@@ -1,19 +1,19 @@
  <?xml version="1.0" encoding="UTF-8"?>
  <!DOCTYPE xbel>
  <xbel version="1.0">
--    <bookmark href="http://qt.nokia.com/">
+-    <bookmark href="http://qt-project.org/">
 -        <title>Qt site</title>
 +    <bookmark href="/usr/share/doc/HTML/index.html">
 +	<title>Mandriva Linux</title>
-+    </bookmark>
-+    <bookmark href="http://www.mandriva.com">
-+        <title>Mandriva</title>
-+    </bookmark>
-+    <bookmark href="http://store.mandriva.com">
-+	<title>Mandriva Store</title>
-+    </bookmark>
-+    <bookmark href="http://www.mandriva.com/community">
-+	<title>Community</title>
-+    </bookmark>
-+    <bookmark href="http://forum.mandriva.com">
-+	<title>Mandriva Forums</title>
      </bookmark>
-     <bookmark href="http://webkit.org/">
-         <title>WebKit.org</title>
-@@ -10,13 +22,4 @@
-     <bookmark href="http://rekonq.kde.org/">
-         <title>rekonq site</title>
+-    <bookmark href="http://webkit.org/">
+-        <title>WebKit.org</title>
++    <bookmark href="http://www.openmandriva.org/">
++        <title>OpenMandriva</title>
      </bookmark>
--    <bookmark href="http://labs.qt.nokia.com/">
--        <title>Qt Labs</title>
--    </bookmark>
+-    <bookmark href="http://rekonq.kde.org/">
+-        <title>rekonq site</title>
++    <bookmark href="http://www.openmandriva.org/en/forum">
++	<title>OM Forum</title>
+     </bookmark>
 -    <bookmark href="http://kde-apps.org/">
 -        <title>KDE-Apps.org</title>
--    </bookmark>
++    <bookmark href="http://www.openmandriva.org/en/wiki">
++	<title>OM Wiki</title>
+     </bookmark>
 -    <bookmark href="http://www.kde.org/">
 -        <title>KDE site</title>
--    </bookmark>
++    <bookmark href="http://rekonq.kde.org/">
++        <title>rekonq site</title>
+     </bookmark>
  </xbel>

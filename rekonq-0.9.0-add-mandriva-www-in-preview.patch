@@ -1,6 +1,6 @@
---- rekonq-2.0/src/rekonq.kcfg.preview~	2012-12-28 19:05:24.000000000 +0100
-+++ rekonq-2.0/src/rekonq.kcfg	2012-12-29 18:07:19.592383938 +0100
-@@ -63,10 +63,10 @@
+--- rekonq-2.3.0/src/rekonq.kcfg.0001~	2013-04-28 21:52:35.000000000 +0200
++++ rekonq-2.3.0/src/rekonq.kcfg	2013-05-07 13:51:39.988108844 +0200
+@@ -72,10 +72,10 @@
  <!-- New Tab Page Settings -->
  <group name="NewTabPage">
      <entry name="previewNames" type="StringList">
@@ -9,16 +9,16 @@
      </entry>
      <entry name="previewUrls" type="StringList">
 -        <default>http://www.kde.org/,http://rekonq.kde.org/</default>
-+	    <default>http://openmandriva.org/,http://openmandriva.org/en/forum,http://rekonq.kde.org/</default>
++	    <default>http://openmandriva.org/,http://forums.openmandriva.org/,http://rekonq.kde.org/</default>
      </entry>
  </group>
  
-@@ -80,7 +80,7 @@
-         <default>false</default>
+@@ -86,7 +86,7 @@
+         <default>1</default>
      </entry>
      <entry name="homePage" type="String">
 -        <default>http://www.kde.org/</default>
-+	    <default>file:/usr/share/doc/HTML/index.html</default>
++        <default>file:///usr/share/doc/HTML/index.html</default>
      </entry>
      <entry name="downloadPath" type="Url">
          <default code="true">KUrl(KGlobalSettings::downloadPath())</default>

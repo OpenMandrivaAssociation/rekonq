@@ -7,7 +7,7 @@
 -    <bookmark href="http://qt-project.org/">
 -        <title>Qt site</title>
 +    <bookmark href="/usr/share/doc/HTML/index.html">
-+	<title>Mandriva Linux</title>
++	<title>OpenMandriva Linux</title>
      </bookmark>
 -    <bookmark href="http://webkit.org/">
 -        <title>WebKit.org</title>
@@ -16,12 +16,12 @@
      </bookmark>
 -    <bookmark href="http://rekonq.kde.org/">
 -        <title>rekonq site</title>
-+    <bookmark href="http://www.openmandriva.org/en/forum">
++    <bookmark href="http://forums.openmandriva.org/">
 +	<title>OM Forum</title>
      </bookmark>
 -    <bookmark href="http://kde-apps.org/">
 -        <title>KDE-Apps.org</title>
-+    <bookmark href="http://www.openmandriva.org/en/wiki">
++    <bookmark href="http://wiki.openmandriva.org/">
 +	<title>OM Wiki</title>
      </bookmark>
 -    <bookmark href="http://www.kde.org/">

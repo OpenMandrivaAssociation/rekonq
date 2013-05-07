@@ -1,8 +1,4 @@
 removed_sources:
-  rekonq-1.0.tar.bz2: b5f20c59dc21d57a0557104999d2a0e0423a7611
-  rekonq-1.80.tar.bz2: 4b732daa0914f5cd6ed6a26a35633b9a6696a94c
-  rekonq-2.0.tar.bz2: b1fcea0cb4139e022a9b67c508233fbe8e507c87
-  rekonq-2.1.tar.bz2: 6d2737a66fd831b97ffdee7d8a45785ec942de34
-  rekonq-2.2.tar.bz2: 7fd363b4f603802fa1e5f8c0e54611f5ae25c8a4
-sources:
   rekonq-2.2.1.tar.bz2: 2d8f5a354bf455ef9ddd03062bcb85fe5ffeb1b3
+sources:
+  rekonq-2.3.0.tar.bz2: eb85898efba6b4171971cf3f458c952b445abf50

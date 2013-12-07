@@ -1,7 +1,7 @@
 Summary:	A lightweight, WebKit based web browser for KDE
 Name:		rekonq
 Version:	2.3.2
-Release:	3
+Release:	4
 License:	GPLv3+
 Group:		Graphical desktop/KDE
 Url:		http://rekonq.sourceforge.net/

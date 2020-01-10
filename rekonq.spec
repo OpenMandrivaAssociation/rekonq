@@ -37,7 +37,7 @@ KDE technologies to have a full-featured KDE web browser.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 cd po
 tar xf %{SOURCE1}

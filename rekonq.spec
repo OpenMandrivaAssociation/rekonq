@@ -4,7 +4,7 @@ Version:	2.4.2
 Release:	5
 License:	GPLv3+
 Group:		Graphical desktop/KDE
-Url:		http://rekonq.sourceforge.net/
+Url:		https://rekonq.sourceforge.net/
 #Source0:	http://downloads.sourceforge.net/project/rekonq/%(echo %{version} | cut -d. -f1-2)/%{name}-%{version}.tar.bz2
 Source0:	http://freefr.dl.sourceforge.net/project/rekonq/2.0/rekonq-%version.tar.xz
 # Russian translation done for 2.3.1

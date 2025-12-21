@@ -16,6 +16,7 @@ Patch0:		rekonq-0.6.80-add-mandriva-www-in-bookmark.patch
 # Patch 1 provides some mandriva sites in default rekonq preview
 # Patch 1 also fix the default website to point to /usr/share/doc/HTML/index.html
 Patch1:		rekonq-0.9.0-add-mandriva-www-in-preview.patch
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 # Needed to enable additional features
 BuildRequires:	nepomuk-core-devel
